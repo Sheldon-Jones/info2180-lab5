@@ -1,1 +1,54 @@
 /* Add your own styles */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: lightblue; /* Light indigo background */
+    padding: 20px;
+    margin: 20px;
+}
+main {
+    min-height: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#lookup{
+    background-color: lightgreen;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+#country{
+    height: 40px;
+}
+
+
+.container {
+    max-width: 42rem; 
+}
+
+h1 {
+   
+    font-size: 2.5rem; 
+    font-weight: 800; 
+    color: blue; 
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    
+}
+
+
+
+
+#result ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#result li {
+    padding: 0.5rem 0;
+}
