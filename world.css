@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: lightblue; /* Light indigo background */
+    background-color: lightblue; 
     padding: 20px;
     margin: 20px;
 }
@@ -22,13 +22,43 @@ main {
     transition: background-color 0.3s ease; 
 }
 
+#lookupcities{
+    background-color: rgb(150, 238, 50);
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+#controls{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+}
+
 #country{
     height: 40px;
 }
 
+#results{
+    border: 2px;
+    display: flex;
+    justify-content: center;
+}
 
 .container {
     max-width: 42rem; 
+}
+
+#earth{
+    width: 10%;
+    height: 10%;
+    border-radius: 20px;
+    padding: 10px;
+    
 }
 
 h1 {
@@ -36,9 +66,18 @@ h1 {
     font-size: 2.5rem; 
     font-weight: 800; 
     color: blue; 
-    padding-bottom: 1rem;
+    padding: 10px;
     margin-bottom: 0;
     
+}
+
+header{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
 }
 
 
@@ -51,4 +90,21 @@ h1 {
 
 #result li {
     padding: 0.5rem 0;
+}
+
+#result table th:nth-child(1), #result table td:nth-child(1){
+    width: 200px;
+}
+
+#result table th:nth-child(2), #result table td:nth-child(2){
+    width:200px;
+}
+
+#result table th:nth-child(3), #result table td:nth-child(3){
+    width:200px;
+}
+
+#result table{
+    width: 80%;
+    margin: 0 auto;
 }
